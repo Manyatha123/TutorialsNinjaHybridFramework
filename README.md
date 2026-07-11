@@ -140,7 +140,6 @@ test-output/ExtentReports/ExtentReport.html
 ​```
 
 Surefire reports are also produced at `target/surefire-reports/` and uploaded as CI artifacts on every push.
-![Uploading image.png…]()
 
 
 ---
