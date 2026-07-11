@@ -1,1 +1,87 @@
-/target/
+# ============================================================
+# Maven
+# ============================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ============================================================
+# Eclipse
+# ============================================================
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+.factorypath
+
+# ============================================================
+# IntelliJ IDEA
+# ============================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ============================================================
+# VS Code
+# ============================================================
+.vscode/
+
+# ============================================================
+# Test output (generated — never commit)
+# ============================================================
+test-output/
+Screenshots/
+screenshots/
+allure-results/
+allure-report/
+reports/
+logs/
+*.log
+
+# ============================================================
+# OS-specific
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Java
+# ============================================================
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
+
+# ============================================================
+# Credentials — never commit
+# ============================================================
+*.pem
+*.key
+config.properties.local
+.env
+.env.local
+secrets.properties
